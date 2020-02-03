@@ -1,7 +1,7 @@
 {
   "name": "csv-converter",
   "version": "1.0.0",
-  "description": "",
+  "description": "Schreib ein Programm, das [CSV](https://en.wikipedia.org/wiki/Comma-separated_values)-Dateien in JSON-Dateien konvertiert. Nutze dafür die [`csvtojson`](https://www.npmjs.com/package/csvtojson)-Bibliothek",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +11,12 @@
   "bugs": {
     "url": "https://github.com/DigitalCareerInstitute/Node-fileio-csvConverter/issues"
   },
-  "homepage": "https://github.com/DigitalCareerInstitute/Node-fileio-csvConverter#readme"
+  "homepage": "https://github.com/DigitalCareerInstitute/Node-fileio-csvConverter#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fbw9dus/csv-converter-Centillion-303.git"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  }
 }
